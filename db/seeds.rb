@@ -5,3 +5,12 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+speakermeeting = SpeakerMeeting.new(speaker_id: 1, meeting_id: 2)
+speakermeeting.save
+speakermeeting = SpeakerMeeting.new(speaker_id: 2, meeting_id: 2)
+speakermeeting.save
+speakermeeting = SpeakerMeeting.new(speaker_id: 3, meeting_id: 2)
+speakermeeting.save
+speakermeeting = SpeakerMeeting.new(speaker_id: 4, meeting_id: 2)
+speakermeeting.save
